@@ -18,13 +18,13 @@ public class Store
     String password;
     String place;
     
-    public Store(String username, String password, String place) {
+    public Store(String username, String password, String place) 
+    {
         this.username = username;
         this.password = password;
         this.place = place;
     }
-    
-    
+        
     public String getPassword() {
         return this.password;
     }
@@ -39,7 +39,8 @@ public class Store
         return this.place;
     }
     
-    public boolean isPasswordEmpty() {
+    public boolean isPasswordEmpty() 
+    {
         return this.password.isEmpty();
     }
 }
